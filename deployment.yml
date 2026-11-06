@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: cont1
-          image: nginx
+          image: devi1999/food-app-nginx
           ports:
             - containerPort: 80
           envFrom:
